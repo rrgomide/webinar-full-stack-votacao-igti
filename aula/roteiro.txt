@@ -1,0 +1,51 @@
+
+Back End: ✓
+===========
+
+(✓) Conferir versão do node com "node -v"
+(✓) Conferir versão do npm com "npm -v" 
+(✓) Conferir versão do npx com "npx -v" 
+(✓) Conferir versão do yarn com "yarn -v" 
+(✓) Mostrar instalação do nodemon com "npm install -g nodemon"
+(✓) Criar pasta frontend com "npx create-react-app frontend"
+(✓) Criar e acessar a pasta "backend"
+(✓) Criar projeto Node com "npm init -y"
+(✓) Acessar a pasta "backend" no VSCode
+(✓) Criar arquivo "index.js" 
+(✓) Criar script para utilizar o nodemon em "package.json" - "start": "nodemon index.js",
+(✓) Criar mensagem com console.log
+(✓) No terminal, executar "npm start" para testar nodemon, modificando a mensagem
+(✓) Instalar express com "npm i express"
+(✓) Instanciar app com express + listen. 
+(✓) Criar rota padrão (Olá, mundo) para '/'. Testar no navegador.
+(✓) Criar estado do app com o vetor "candidates" vazio e a variável "totalVotes".
+(✓) Criar a função fillCandidates para preencher os dados com Marco Minnemann, Mike Portnoy e 
+   Neil Peart, com id sequencial, 0 votos e 0 percentual
+(✓) Criar função para gerar números aleatórios parametrizada
+(✓) Criar função para simular votação a cada 100 milisegundos com setInterval
+(✓) Criar rota para /votes, enviando o vetor ordenado por voto
+(✓) Mostrar JSON gerado em localhost:8080/votes 
+(✓) Mostrar que não é interessante que o chefe veja somente o back end funcionando,
+   justificando a necessidade do front end.
+
+
+Front End: ✓
+============
+
+(✓) Verificar projeto criado na pasta 'frontend'
+(✓) Executar projeto React com "yarn start"
+() Excluir arquivos desnecessários do projeto 'frontend'
+(✓) Copiar imagens da pasta "assets" para a pasta "public" do projeto React 
+(✓) Trocar título da página 
+(✓) Transformar App em Class Component
+(✓) Criar state com candidates vazio
+(✓) Criar render() e if para vetor não preenchido x preenchido
+(✓) Criar componentDidMount e definir leitura do backend
+(✓) Verificar problema de CORS, voltar ao Back End e corrigir
+  (✓) Instalar cors com 'npm i cors"
+  (✓) Ativar cors em index.js
+() Definir busca a cada 1 segundo com setInterval
+() Preencher render()
+() Definir "Carregando..." enquanto os dados não chegam
+() Preencher candidatos com array.map
+() Estilizar CSS
